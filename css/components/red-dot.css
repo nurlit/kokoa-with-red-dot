@@ -1,0 +1,15 @@
+.red__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+.find__dot {
+  display: block;
+  position: absolute;
+  right: -9px;
+  top: -10px;
+}
+.cog-with-dot {
+  position: relative;
+}
