@@ -84,3 +84,23 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+@keyframes heartAnimation {
+  0% {
+    transform: scale(1);
+    color: white;
+  }
+
+  50% {
+    transform: scale(1.5);
+    color: red;
+  }
+  100% {
+    transform: scale(1);
+    color: white;
+  }
+}
+.open-post__photo .fa-heart {
+  will-change: transform;
+  animation: heartAnimation 1s ease-out infinite;
+}
